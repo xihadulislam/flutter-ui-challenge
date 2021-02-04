@@ -38,11 +38,11 @@ class MyHomePage extends StatelessWidget {
                 overflow: Overflow.visible,
                 children: [
                   Container(
-                    height: MediaQuery.of(context).size.height / 3.5,
+                    height: MediaQuery.of(context).size.height / 3,
                     width: MediaQuery.of(context).size.width,
                     decoration: BoxDecoration(
                         color: Colors.white,
-                        border: Border.all(color: Colors.grey, width: 4),
+                        border: Border.all(color: Colors.grey, width: 2),
                         borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(50.00),
                           topRight: Radius.circular(50.00),
@@ -55,7 +55,7 @@ class MyHomePage extends StatelessWidget {
                           Text(
                             'Blancpain',
                             style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 22),
+                                fontWeight: FontWeight.bold, fontSize: 26),
                           ),
                           SizedBox(
                             height: 6,
@@ -64,7 +64,7 @@ class MyHomePage extends StatelessWidget {
                             ' £11,900',
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 14,
+                                fontSize: 18,
                                 color: Colors.red),
                           ),
                           SizedBox(
@@ -73,8 +73,8 @@ class MyHomePage extends StatelessWidget {
                           Text(
                             'Watch of the collection: It was in 1953 that Blancpain unveiled what it bills as the first “modern” diving watch. The Fifty Fathoms has since been made available in as many as 100 variations, with the latest being the Bathyscaphe Mokarran',
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
                               fontSize: 12,
+                              letterSpacing: 1
                             ),
                           ),
                         ],
